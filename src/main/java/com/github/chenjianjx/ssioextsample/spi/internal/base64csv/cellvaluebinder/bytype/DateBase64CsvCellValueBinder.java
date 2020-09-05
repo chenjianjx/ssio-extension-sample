@@ -8,8 +8,8 @@ import org.apache.commons.lang3.time.DateUtils;
 import java.text.ParseException;
 import java.util.Date;
 
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.fromBase64Text;
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.toBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.fromBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.toBase64Text;
 
 public class DateBase64CsvCellValueBinder extends Base64CsvCellValueBinder {
 

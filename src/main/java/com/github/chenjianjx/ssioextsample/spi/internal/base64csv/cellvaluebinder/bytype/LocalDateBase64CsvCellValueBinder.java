@@ -6,8 +6,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.fromBase64Text;
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.toBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.fromBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.toBase64Text;
 
 public class LocalDateBase64CsvCellValueBinder extends Base64CsvCellValueBinder {
 

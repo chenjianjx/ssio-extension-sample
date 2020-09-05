@@ -1,4 +1,4 @@
-package com.github.chenjianjx.ssioextsample.spi.util;
+package com.github.chenjianjx.ssioextsample.util;
 
 
 import java.io.UnsupportedEncodingException;

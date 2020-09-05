@@ -3,8 +3,8 @@ package com.github.chenjianjx.ssioextsample.spi.internal.base64csv.cellvaluebind
 import com.github.chenjianjx.ssioextsample.spi.internal.base64csv.cellvaluebinder.Base64CsvCellValueBinder;
 import org.apache.commons.lang3.StringUtils;
 
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.fromBase64Text;
-import static com.github.chenjianjx.ssioextsample.spi.util.MyBase64Utils.toBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.fromBase64Text;
+import static com.github.chenjianjx.ssioextsample.util.MyBase64Utils.toBase64Text;
 
 public class PrimitiveLongBase64CsvCellValueBinder extends Base64CsvCellValueBinder {
 
