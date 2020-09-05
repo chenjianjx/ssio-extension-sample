@@ -58,7 +58,7 @@ public final class Base64CsvCellValueBinderRepo {
         javaTypeToBinderType.put(SimpleTypeEnum.Enum, EnumBase64CsvCellValueBinder.class);
     }
 
-    public static Base64CsvCellValueBinder getBase64CsvCellValueBinder(SimpleTypeEnum javaType, Class<Enum<?>> enumClassIfEnum) {
+    public static Base64CsvCellValueBinder getCellValueBinder(SimpleTypeEnum javaType, Class<Enum<?>> enumClassIfEnum) {
         Class<? extends Base64CsvCellValueBinder> binderType = javaTypeToBinderType.get(javaType);
         if (binderType == null) {
             return null;

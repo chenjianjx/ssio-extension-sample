@@ -1,9 +1,9 @@
 package com.github.chenjianjx.ssioextsample.spi.internal.base64csv.model;
 
+import com.github.chenjianjx.ssioextsample.spi.internal.base64csv.cellvaluebinder.Base64CsvCellValueBinderRepo;
 import org.ssio.api.external.typing.SimpleTypeEnum;
 import org.ssio.spi.developerexternal.abstractsheet.cellvaluebinder.SsCellValueBinder;
 import org.ssio.spi.developerexternal.abstractsheet.model.SsCell;
-import com.github.chenjianjx.ssioextsample.spi.internal.base64csv.cellvaluebinder.Base64CsvCellValueBinderRepo;
 
 public class Base64CsvCell implements SsCell {
 
@@ -35,7 +35,7 @@ public class Base64CsvCell implements SsCell {
 
     @Override
     public SsCellValueBinder getCellValueBinder(SimpleTypeEnum javaType, Class<Enum<?>> enumClassIfEnum) {
-        return CsvCellValueBinderRepo.getCsvCellValueBinder(javaType, enumClassIfEnum);
+        return Base64CsvCellValueBinderRepo.getCellValueBinder(javaType, enumClassIfEnum);
     }
 
     @Override
